@@ -31,18 +31,22 @@ Output(2,1,E
 If D<1
 Then
 Goto H
+Else
+Goto F
+End
 If E<1
 Then
 Goto K
 Else
 Goto F
+End
 Lbl H
 ClrHome
 Output(1,1,"VICTORY
 Pause
-End
+Stop
 Lbl K
 ClrHome
 Output(1,1,"YOU DIED
 Pause
-End
+Stop
