@@ -32,8 +32,9 @@ If D<1
 Then
 Goto H
 Else
-Goto F
+Goto M
 End
+Lbl M
 If E<1
 Then
 Goto K
