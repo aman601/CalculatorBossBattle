@@ -3,7 +3,7 @@
 0→L
 0→J
 randInt(1,5)→G
-randInt(1,8)→I
+randInt(1,7)→I
 Output(1,1,"READY?
 Pause
 ClrHome
@@ -21,7 +21,7 @@ Lbl F
 Output(1,1,D
 Output(2,1,E
 randInt(1,5)→G
-randInt(1,8)→I
+randInt(1,7)→I
 D-(G+J)→D
 E-(I-L)→E
 Pause
