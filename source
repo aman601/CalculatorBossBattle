@@ -9,7 +9,7 @@ Pause
 ClrHome
 Menu("SELECT A CLASS","TANK",A,"SHIELDY BOI",B,"FIGHTER",C
 Lbl A
-110→A
+110→E
 Goto F
 Lbl B
 1→L
@@ -22,8 +22,8 @@ Output(1,1,D
 Output(2,1,E
 randInt(1,5)→G
 randInt(1,8)→I
-D→D-(G+J)
-E→E-(I-L)
+D-(G+J)→D
+E-(I-L)→E
 Pause
 ClrHome
 Output(1,1,D
