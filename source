@@ -1,0 +1,48 @@
+100→D
+100→E
+0→L
+0→J
+randInt(1,5)→G
+randInt(1,8)→I
+Output(1,1,"READY?
+Pause
+ClrHome
+Menu("SELECT A CLASS","TANK",A,"SHIELDY BOI",B,"FIGHTER",C
+Lbl A
+110→A
+Goto F
+Lbl B
+1→L
+Goto F
+Lbl C
+1→J
+Goto F
+Lbl F
+Output(1,1,D
+Output(2,1,E
+randInt(1,5)→G
+randInt(1,8)→I
+D→D-(G+J)
+E→E-(I-L)
+Pause
+ClrHome
+Output(1,1,D
+Output(2,1,E
+If D<1
+Then
+Goto H
+If E<1
+Then
+Goto K
+Else
+Goto F
+Lbl H
+ClrHome
+Output(1,1,"VICTORY
+Pause
+End
+Lbl K
+ClrHome
+Output(1,1,"YOU DIED
+Pause
+End
